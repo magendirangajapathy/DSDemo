@@ -1,6 +1,6 @@
 :root {
   /* Colors */
-  --color-primary: #3b82f6;
+  --color-primary: #17ABDA;
   --color-primary-foreground: #ffffff;
   --color-background: #ffffff;
   --color-surface: #f8fafc;
@@ -11,6 +11,54 @@
   --color-success: #16a34a;
   --color-destructive: #dc2626;
   --color-info: #0284c7;
+
+  /* Slate (neutrals / Figma samples) */
+  --color-slate-50: #FAFAFA;
+  --color-slate-100: #F1F5F9;
+  --color-slate-200: #D4D4D6;
+  --color-slate-300: #BDBDC1;
+  --color-slate-400: #A6A6AB;
+  --color-slate-500: #565862;
+  --color-slate-600: #333541;
+  --color-slate-700: #272936;
+  --color-slate-800: #1D1F29;
+  --color-slate-900: #111218;
+
+  /* Blue palette (Figma samples) */
+  --color-blue-50: #F6FAFE;
+  --color-blue-100: #E9F4FC;
+  --color-blue-200: #94CEED;
+  --color-blue-300: #93C5FD;
+  --color-blue-400: #17ABDA;
+  --color-blue-500: #0070AD;
+  --color-blue-600: #005786;
+  --color-blue-700: #00324D;
+  --color-blue-800: #00476D;
+  --color-blue-900: #002F3B;
+
+  /* Green palette (Figma samples) */
+  --color-green-50: #E7F6EB;
+  --color-green-100: #CDEDD5;
+  --color-green-200: #AFE3BD;
+  --color-green-300: #8AD9A2;
+  --color-green-400: #57CF80;
+  --color-green-500: #4EB972;
+  --color-green-600: #43A063;
+  --color-green-700: #2E8A4E;
+  --color-green-800: #1E5631;
+  --color-green-900: #11502A;
+
+  /* Teal palette (Figma samples) */
+  --color-teal-50: #E4FAFA;
+  --color-teal-100: #C6F5F4;
+  --color-teal-200: #A1F0EF;
+  --color-teal-300: #2DD4BF;
+  --color-teal-400: #00E6E3;
+  --color-teal-500: #00CECB;
+  --color-teal-600: #00AE9D;
+  --color-teal-700: #006766;
+  --color-teal-800: #005786;
+  --color-teal-900: #00324D;
 
   /* Radii */
   --radius-sm: 4px;
@@ -38,3 +86,6 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 1024px;
 }
+
+/* Include generated Figma-style variables (kept separate to make review easy) */
+@import './figma-tokens.css';
